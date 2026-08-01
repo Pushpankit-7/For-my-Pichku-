@@ -1,0 +1,29 @@
+body{
+margin:0;overflow:hidden;color:white;
+font-family:Arial,sans-serif;
+background:linear-gradient(#120018,#2b0d38,#ffb7d5);
+}
+.center{display:flex;height:100vh;justify-content:center;align-items:center;flex-direction:column}
+.envelope{
+width:280px;height:180px;background:#ffd1e6;border-radius:12px;
+display:flex;flex-direction:column;justify-content:center;align-items:center;
+box-shadow:0 0 35px rgba(255,105,180,.5)
+}
+.seal{font-size:42px;margin-bottom:18px}
+button{
+padding:12px 22px;border:none;border-radius:999px;
+background:#ff4f9f;color:#fff;font-size:18px
+}
+.hidden{display:none}
+#content{
+position:absolute;inset:0;
+display:flex;flex-direction:column;
+justify-content:center;align-items:center;
+text-align:center;padding:30px
+}
+h1{text-shadow:0 0 15px hotpink}
+.star,.petal{
+position:fixed;pointer-events:none;
+}
+.star{color:white}
+.petal{color:#ffc0cb;font-size:18px}
